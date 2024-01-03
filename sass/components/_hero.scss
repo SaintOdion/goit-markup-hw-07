@@ -1,0 +1,56 @@
+.hero {
+    margin-right: auto;
+    margin-left: auto;
+
+    padding: 200px 0;
+    text-align: center;
+    max-width: 1600px;
+
+    background-color: #C4C4C4;
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.40),
+            rgba(47, 48, 58, 0.40)),
+        url(../images/bcg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+&__head {
+    width: 696px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #FFF;
+    text-align: center;
+
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.36364;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+&__button {
+    width: 200px;
+    height: 50px;
+    padding: 0;
+
+    border-radius: 4px;
+    border: 1px;
+
+    color: #FFF;
+    text-align: center;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875;
+    letter-spacing: 0.96px;
+    background-color: $selection-color;
+    cursor: pointer;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+}
